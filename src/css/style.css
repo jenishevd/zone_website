@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+  color: #fff;
+}
+
+.btn {
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  border-radius: 5px;
+  border: none;
+  transition: .5s;
+}
+
+.btn:hover {
+  transition: .5s;
+  background: linear-gradient(90.35deg, #D946EF 150%, #2563EB 50%);
+  transform: scale(1.1);
+}
+
+.header__link>a:active {
+  color: #D946EF;
+}
+
+.header__btn {
+  padding: 12px 33px 12px 24px;
+}
+
+body {
+  background-color: #111827;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  margin-top: 40px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 60px;
+  align-items: center;
+}
+
+.header__link {
+  transition: 0.5s;
+}
+
+.header__link:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #2563EB;
+}
+
+.aboutUs{
+  padding: 202px 0 260px;
+  position: relative;
+}
+
+.aboutUs__title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 84px;
+  letter-spacing: 0.02em;
+  background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.aboutUs__desc {
+  width: 543px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: #E5E7EB;
+  opacity: 0.8;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  margin: 30px 0;
+}
+.aboutUs__btn{
+  padding: 20px 40px;
+}
+
+.aboutUs__watch{
+  display: flex;
+  align-items:center;
+  column-gap: 23px;
+}
+
+.aboutUs__links{
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.aboutUs__img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.aboutUs__img::before{
+  content: "";
+  position: absolute;
+  background: #5141DA;
+  filter: blur(100px);
+  width: 340px;
+  height: 283px;
+  top: 0;
+}
